@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamal Dhital</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/654a917f30.js" crossorigin="anonymous"></script>
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="menu-btn" onclick="toggleNavbar()">&#9776; Menu</div>
+        <div class="close-btn" onclick="toggleNavbar()">X</div>
+        <div class="navbar" id="navbar">
+            <div class="navImage">
+                <img src="Image/Kamal.jpg" alt="Kamal Dhital" height="100px" width="100px">
+                <h1 style="color: #23ffff;;">Kamal Dhital</h1>
+                <h2 style="color: #97bc62ff; font-size: 20px;">Student, Developer</h2>
+            </div>
+            <div>
+                <div class="navLink">
+                    <nav>
+                        <div id="radioBtn">
+                            <input type="radio" name="section" id="home" checked class="radio-btn"
+                                onclick="toggleNavbar()">
+                            <label for="home" class="icon-label"><i class="fa-solid fa-house"></i>Home</label>
+
+                            <input type="radio" name="section" id="profile" class="radio-btn" onclick="toggleNavbar()">
+                            <label for="profile" class="icon-label"><i class="fa-solid fa-user"></i>Profile</label>
+
+                            <input type="radio" name="section" id="education" class="radio-btn"
+                                onclick="toggleNavbar()">
+                            <label for="education" class="icon-label"><i
+                                    class="fa-solid fa-school"></i>Education</label>
+
+                            <input type="radio" name="section" id="skills" class="radio-btn" onclick="toggleNavbar()">
+                            <label for="skills" class="icon-label"><i class="fa-solid fa-code"></i>Skills</label>
+
+                            <input type="radio" name="section" id="interest" class="radio-btn" onclick="toggleNavbar()">
+                            <label for="interest" class="icon-label"><i class="fa-solid fa-chess"></i>Interest</label>
+
+                            <input type="radio" name="section" id="contact" class="radio-btn" onclick="toggleNavbar()">
+                            <label for="contact" class="icon-label"><i class="fa-solid fa-id-card"></i>Contact</label>
+
+                            <input type="radio" name="section" id="socialMedia" class="radio-btn"
+                                onclick="toggleNavbar()">
+                            <label for="socailMedia" class="icon-label"><i class="fa-solid fa-user-group"></i>Social
+                                Media</label>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+    </header>
+    <main>
+        <div class="container">
+            <section id="home" name="home" class="mainHeader">
+                <h1>I'm Kamal Dhital, <br>Web Developer</h1>
+            </section>
+
+            <!-- Starting of section "Biography"-->
+            <section id="profile" name="profile" class="mainHeader">
+                <h1>Kamal Dhital</h1>
+                <p>Hello, I am Kamal Dhital, born on October 6, 2004, in Nepal, with roots tracing back to the
+                    village
+                    of Kerabari in Gorkha.
+                    My Journey has been shaped by a thirst for knowledge, a passion for technology, and an
+                    unwavering
+                    commitment to my goals.
+                    After few years of my born, my parents made the decision to leave our small village and moved to
+                    Chitwan,
+                    wanting to give me better opportunities for education.
+                    They have always been there for me, supporting and encouraging me to pursue my interest.
+                </p>
+            </section>
+            <!-- Starting of section education -->
+            <section id="education" name="education" class="mainHeader">
+                <h2>Education History</h2>
+                <p>My educational pursuits have taken me through notable institutions in Nepal.
+                    I successfully completed my Secondary Education Examination (SEE) at Peace Vision English
+                    Boarding School in Chitwan, achieving a remarkable 3.85 GPA.
+                    Subsequently, I earned my School Leaving Certificate (SLC) from Sigma Secondary School
+                    College in Kathmandu, garnering a GPA of 2.82.
+                    Currently, I am on the path to earning my Bachelor's degree at Herald College Kathmandu in
+                    Naxal,
+                    Kathmandu.
+                    I'm a smartworking and dedicated student, fully committed to reaching my goals.
+                    I am constantly on the lookout for the ways to enhance my skills and learn new things.
+                    These experiences have not only fueled my academic growth but have also instilled in me a deep
+                    appreciation of learning.
+                </p>
+                <!-- Starting of table for education history -->
+                <table border="1px" id="edu">
+                    <tr>
+                        <th>College Name</th>
+                        <th>Degree</th>
+                        <th>Grade</th>
+                        <th>Years</th>
+                    </tr>
+                    <tr>
+                        <td>Peace Vision English boarding School</td>
+                        <td>Secondary Education Examination</td>
+                        <td>3.85 GPA</td>
+                        <td>2020 A.D</td>
+                    </tr>
+                    <tr>
+                        <td>Sigma Secondary School College</td>
+                        <td>School Leaving Certificate</td>
+                        <td>2.82 GPA</td>
+                        <td>2022 A.D</td>
+                    </tr>
+                    <tr>
+                        <td>Herald College Kathmandu</td>
+                        <td>BSc (Hons) Computer Science</td>
+                        <td></td>
+                        <td>Currently Studying</td>
+                    </tr>
+                </table>
+            </section>
+            <section id="skills" name="skills" class="mainHeader"></section>
+            <!-- Starting of interest and hobbies section -->
+            <section id="interest" name="interest" class="mainHeader">
+                <h2>Interest and Hobbies</h2>
+                <p>Beyond the classroom, I am driven by a keen interest in new technology, ethical hacking and
+                    coding.
+                    Exploring the world of programming has become a personal mission, complemented by my proficiency
+                    in
+                    Microsoft Office, HTML, CSS, and a foundation understanding of Python.
+                    Away from the digital realm, I find solace and excitement in the stratefic world of chess,
+                    immerse
+                    myself in various games, and continually seek opportunities to broden my horizons through new
+                    learning experiences.
+                </p>
+                <!-- Interest and hobbies are shown using ordered and unordered list -->
+                <ol>
+                    <li>Interest</li>
+                    <ul>
+                        <li>Coding and Programming</li>
+                        <li>Computing</li>
+                        <li>Joining events</li>
+                        <li>New technology</li>
+                    </ul>
+                    <li>Hobbies</li>
+                    <ul>
+                        <li>Playing Chess and solving puzzle games</li>
+                        <li>Cooking</li>
+                        <li>Gaming</li>
+                        <li>Meditation</li>
+                    </ul>
+                </ol>
+                <!-- Starting of aside section -->
+                <aside>
+                    <p>This multifaceted journey is not just about academic achievements; it is a reflection of my
+                        diverse
+                        skills, interest, and a glimpse into my future aspirations.
+                        With my eyes set on a career as an Ethical Hacker, I am eager to weave together my education
+                        foundation and unique skill set to contribute meaningfully to the ever-evolving landscape of
+                        technology.
+                    </p>
+                </aside>
+            </section>
+            <section id="contact" name="contact" class="mainHeader">
+                <h2>Contact Details</h2>
+                <form>
+                    <h3><mark id="contactMark">Give us feedback:</mark></h3>
+                    <label for="name"><em>Name : </em></label><br>
+                    <input type="text" name="name" id="name" class="formField" placeholder="Name"><br>
+                    <label for="email"><em>E-Mail : </em></label><br>
+                    <input type="email" name="email" id="email" class="formField" placeholder="Email"><br>
+                    <label for="message"><em>Message : </em></label><br>
+                    <textarea id="message" name="message" class="formField" placeholder="Message"></textarea><br>
+                    <input type="submit" value="Submit" id="btn"><br>
+                </form>
+
+            </section>
+            <section id="socialMedia" name="socialMedia" class="mainHeader">
+                <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark"
+                    data-type="VERTICAL" data-vanity="kamal-dhital-0878bb27a" data-version="v1"><a
+                        class="badge-base__link LI-simple-link"
+                        href="https://np.linkedin.com/in/kamal-dhital-0878bb27a?trk=profile-badge"></a>
+                </div>
+                <div>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <div>
+            <p id="copyRight">Copyright &copy; 2023 Kamal Dhital. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
